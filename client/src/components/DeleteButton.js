@@ -8,6 +8,8 @@ export default(props) => {
         axios.delete("http://localhost:8000/cars/"+ carId)
         .then(car => {
         onSuccess()
+
+        
     })
 }
 
